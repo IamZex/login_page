@@ -1,0 +1,87 @@
+@font-face{
+  font-family: login-font;
+  src: url("MotionPicture_PersonalUseOnly.ttf")
+}
+html {
+  font-family: sans-serif;
+}
+body{
+  display:flex;
+}
+button{
+  padding:5px;
+  margin:10px;
+}
+.background{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("pexels-tayla-walsh-2825904.jpg");
+    height:700px;
+    width: 600px;
+    background-color: #ade0b2;
+    background-position: left;
+    background-size: cover;
+}
+:focus{
+  border-color: blue;
+}
+.overlay{
+  align-self: center;
+  align-content: center;
+  position: relative;
+  top:-30% ;
+  color:white;
+  font-family: login-font;
+  font-size: 50px;
+}
+
+.signups{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.topSpace{
+  align-self: center;
+  font-family: login-font;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+.bottomSpace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeMidSpace{
+  background-color: black;
+  opacity: 0.6;
+  height: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  margin: 100px;
+}
+
+td, th {
+  padding: 10px 20px;
+}
+
+td {
+  text-align: center;
+  height: 50px;
+}
+
+
+input:focus, textarea:focus, select:focus {
+  outline-offset: 0px;
+  border: 1px solid rgb(4, 63, 4);
+  box-shadow: 0px 0px 4px green ;
+  outline: none;
+ }
+ 

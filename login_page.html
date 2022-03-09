@@ -13,31 +13,48 @@
         <div class="welcomeMidSpace"></div>
         <div class ="overlay">My Signup! <img src="monkey-head-svgrepo-com.svg" width="60px">  </div>
         <div class ="overlay2"></div>
-        <div class="welcomeBottomSpace"></div></div>
-
+        <div class="welcomeBottomSpace">Photo by Tayla Walsh on Pexels</div> 
+    </div>
     <div class ="signups">
+        <div class="whiteSpace"></div>
         <div class = "topSpace">
             Here we are. Born to be Kings. We are the Princes of the Universe.
          
         </div>
         <div class="inputs">
+            <form action="#" autocomplete="on">
             <Table>
                 <tr>
-                    <td>First Name <br><input type="text" name="First Name"></input> </td>
-                    <td>Given Name<br><input type="text"></input></td>
+                    <td>
+                        <label for="given-name">First Name</label> <br>
+                        <input type="text" name="given-name" id="given-name" required></input> 
+                    </td>
+                    <td>
+                        <label for="family-name"> Family Name</label><br>
+                        <input type="text" name="last-name" id="last-name" required></input></td>
                 </tr>
                 <tr>
-                    <td>Email<br><input type="text" type ="email"></input></td>
-                    <td>Phone Number<br><input type="text"></input></td>
+                    <td>
+                        <label for="email"> Email</label><br>
+                        <input type="email" required ></input></td>
+                    <td>
+                        <label for="phone-number">Phone Number</label><br>
+                        <input type="text"></input></td>
                 </tr>
                 <tr>
-                    <td>Password<br><input type="password"></input></td>
-                    <td>Confirm Password<br><input type="password"></input></td>
+                    <td><label for="Password">Password</label><br>
+                        <input type="password" required></input></td>
+                    <td>
+                        <label for="Confirm Password">Confirm Password</label><br>
+                        <input type="password"required></input></td>
                 </tr>
             </Table>
+           
+            <div class="submitButton"><button type="submit">Sign Up</button></div>
+        </form>
         </div>
         <div class = "bottomSpace">
-        <div><button>Sign Up</button></div>
+        
         <div>Already a Member? <a href="https://reddit.com">Log in!</a></div>
         </div>
     </div>
